@@ -1,0 +1,128 @@
+<main>
+  <div class="container-fluid">
+    <div class="row p-4 mt-4 d-flex justify-content-center ">
+      <h1 class="text-center mb-4"><i class="bi bi-currency-exchange"></i> Cotización de
+        divisas</h1>
+      <div class="row mt-5 col-xxl-8 col-xl-8 col-md-8  d-none d-sm-block d-md-block d-lg-block d-xl-block d-xxl-block">
+        <div class="col-12">
+          <div class="table-responsive">
+            <h2 class="text-center mb-4">Conversor de Divisas</h2>
+            <table class="table table-success table-striped table-hover">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col"><span class="fi fi-us"></span><br>USD</th>
+                  <th scope="col"><span class="fi fi-eu"></span><br>EUR</th>
+                  <th scope="col"><span class="fi fi-gb"></span><br>GBP</th>
+                  <th scope="col"><span class="fi fi-jp"></span><br>JPY</th>
+                  <th scope="col"><span class="fi fi-cn"></span><br>CNY</th>
+                  <th scope="col"><span class="fi fi-au"></span><br>AUD</th>
+                  <th scope="col"><span class="bi bi-currency-bitcoin"></span><br>BTC</th>
+                  <th scope="col"><span class="fi fi-ar"></span><br>ARS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" class=""><span class="fi fi-us"></span>USD <br><span
+                      class="bi bi-currency-exchange"></span>inverso</th>
+                  <td>1.0000 <br> 1.0000 </td>
+                  <td>0.9270 <br> 1.0877</td>
+                  <td>0.8162 <br> 1.2323</td>
+                  <td>134.98 <br> 0.0091</td>
+                  <td>6.9096 <br> 0.1416</td>
+                  <td>1.4968 <br> 0.6173</td>
+                  <td>0.000041 <br>7148.7</td>
+                  <td>64.87725 <br>0.015414</td>
+                </tr>
+                <tr>
+                  <th scope="row" class=""><span class="fi fi-eu"></span>EUR <br><span
+                      class="bi bi-currency-exchange"></span>inverso</th>
+                  <td>1.0788 <br>0.9199</td>
+                  <td>1.0000 <br>1.0000</td>
+                  <td>0.8807 <br>1.1336</td>
+                  <td>145.73 <br>0.0084</td>
+                  <td>7.4587 <br>0.1149</td>
+                  <td>1.6166 <br>0.5009</td>
+                  <td>0.000044 <br> 6576.146</td>
+                  <td>70.52637 <br> 0.014179</td>
+                </tr>
+                <tr>
+                  <th scope="row"><span class="fi fi-gb"></span>GBP <br><span
+                      class="bi bi-currency-exchange"></span>inverso</th>
+                  <td>1.2255 <br>0.8144</td>
+                  <td>1.1353 <br>0.8821</td>
+                  <td>1.0000 <br>1.0000</td>
+                  <td>165.4500 <br>0.007451</td>
+                  <td>8.697272 <br>0.114979</td>
+                  <td>1.8368 <br>0.5009</td>
+                  <td>0.000050 <br>0.000002</td>
+                  <td>0.858036 <br>1.165452</td>
+                </tr>
+                <tr>
+                  <th scope="row"><span class="fi fi-ru"></span>RUB <br><span
+                      class="bi bi-currency-exchange"></span>inverso</th>
+                  <td>0.01322 <br>75.6113</td>
+                  <td>0.01210 <br>82.1951</td>
+                  <td>0.010732 <br>93.1780 </td>
+                  <td>1.44036 <br>0.69426</td>
+                  <td>0.09394 <br>10.7135</td>
+                  <td>0.02142 <br>46.0676</td>
+                  <td>0.000002 <br>540 527</td>
+                  <td>0.858036 <br>1.165452</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5 mb-5 col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+        <div class="card bg-success-subtle border border-white px-4 py-5">
+          <form>
+            <h2 class="text-center mb-4">Conversor de Divisas</h2>
+
+            <div class="mb-3">
+              <label for="cantidadInput" class="form-label">Cantidad:</label>
+              <input type="number" class="form-control" id="cantidadInput" placeholder="Ingrese la cantidad">
+            </div>
+            <div class="mb-3">
+              <label for="deSelect" class="form-label">De:</label>
+              <select class="form-select" id="deSelect">
+                <option selected>USD - Dólar EEUU</option>
+                <option>EUR - Eur UE</option>
+                <option>GBP - Libra esterlina</option>
+                <option>JPY - Yen japonés</option>
+                <option>CNY - Renminbi chino</option>
+                <option>AUD - Dólar australiano</option>
+                <option>BTC - Bitcoin</option>
+                <option>ARS - Peso argentino</option>
+                <option>RUB - Rublo ruso</option>
+              </select>
+            </div>
+            <div>
+              <label for="aSelect" class="form-label">A:</label>
+              <select class="form-select" id="aSelect">
+                <option selected>ARS - Peso argentino</option>
+                <option>USD - Dólar EEUU</option>
+                <option>EUR - Euro UE</option>
+                <option>GBP - Libra esterlina</option>
+                <option>JPY - Yen japonés</option>
+                <option>CNY - Renminbi chino</option>
+                <option>AUD - Dólar australiano</option>
+                <option>BTC - Bitcoin</option>
+                <option>RUB - Rublo ruso</option>
+              </select>
+            </div>
+            <div class="mb-5">
+              <label for="cantidadInput" class="form-label"></label>
+              <input type="number" class="form-control" id="cantidadInput " readonly>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+              <button type="submit" class="btn btn-primary p-2">Convertir <i class="bi bi-arrow-right"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
